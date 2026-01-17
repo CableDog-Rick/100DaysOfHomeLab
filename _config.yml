@@ -1,6 +1,6 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "My blog"
+title: "My 100 Days of Homelab Challange Site"
+author: "Rick Ibrahim"
+description: "This is where I will blog my experiences participating in the 100 days of Homelab Challange."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -10,7 +10,7 @@ date_format: "%B %d, %Y"
 
 show_excerpts: true             # show article excerpts instead of archive list on the home page
 show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
+show_sidebar: true             # show a sidebar instead of the usual header
 show_minimal: false             # remove all clutter
 
 #show_frame: "/assets/images/background.svg"
@@ -18,13 +18,15 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", sidebaricon: home}
+  - {title: Home,url: "index.html", sidebaricon: home}
+  - {file: "archive.html", sidebaricon: archive}
   - {file: "README.md", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+  - {title: Mail, icon: envelope, url: "mailto:richard@ibrahim.cloud"}
+  - {title: Github, icon: github, url: "https://github.com/richard-ibrahim"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Challange Homepage, icon: link, url: "https://100daysofhomelab.com/"}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
