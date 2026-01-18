@@ -19,7 +19,7 @@ show_minimal: false             # remove all clutter
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {title: Home,url: "index.html", sidebaricon: home}
-  - {file: "archive.html", sidebaricon: archive}
+  - {title: Posts, file: "archive.html", sidebaricon: archive}
   - {file: "README.md", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
