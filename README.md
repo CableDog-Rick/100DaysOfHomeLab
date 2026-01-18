@@ -25,5 +25,7 @@ Put stuff here.
 ## This Site
 
 Github Pages
+
 Jekyll static site generator
+
 Contrast theme
